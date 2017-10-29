@@ -19,7 +19,6 @@
         <receiver android:name=".BatteryState">
             <intent-filter>
                 <action android:name="android.intent.action.BATTERY_CHANGED"/>
-                <action android:name="android.intent.action.TIME_TICK"/>
             </intent-filter>
         </receiver>
     </application>
